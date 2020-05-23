@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title> 효정 : 부트스트랩 연습하기</title>
+
+    <style>
+        .wrap {
+            width: 900px;
+            margin: 10px auto;
+            /* 위 아래, 10px 여백주고, 좌우는 자동으로 똑같게 맞춰주기*/
+        }
+
+        .form-middle {
+            width: 600px;
+            margin: 30px auto;
+            /* 위 아래, 10px 여백주고, 좌우는 자동으로 똑같게 맞춰주기*/
+            padding: 40px;
+            border: seagreen;
+            border-style: dotted;
+            border-width: 2px;
+            border-radius: 10px;
+
+            font-weight: bold;
+        }
+
+        .card-comment {
+            font-weight: bold;
+            font-family: 'Gamja Flower', cursive;
+            border: seagreen;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+        }
+    
+    </style>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, Hedy!</h1>
+            <p class="lead">This is made for you and there will be a bunch of happiness in your life</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Open posting box</a>
+            </p>
+        </div>
+
+        <div class="form-middle">
+            <div class="form-group">
+                <label for="exampleInputEmail1"> Article URL </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1"> Your comment </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+        <div class="button">
+            <button type="submit" class="btn btn-primary"> Save </button>
+            </div>
+        </div>
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title"> <a href="#" class="card-link">url 이 올라갑니다 </a> </h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <p class="card-comment">
+                        여기에 코멘트가 들어가죠 :) </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title"> 222</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title">333</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title">444</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title">555</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg"
+                    alt="Card image cap">
+
+                <div class="card-body">
+                    <h5 class="card-title">666</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

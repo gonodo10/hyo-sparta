@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title> 효정 | 부트스트랩 연습하기</title>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+
+        .wrap {
+            width: 700px;
+            margin: 50px auto;
+            padding: 50px;
+            border: black solid;
+            border-width: 0.01cm;
+        }
+
+        .product-img {
+            width: 500px;
+            margin: 10px auto;
+            padding: 30px;
+            border: lightgray solid;
+            border-width: 0.01cm;
+            display:block;
+            
+        }
+
+
+        .order-button {
+            margin: 20px auto;
+            width: 200px;
+            font-weight: bold;
+            display: block;
+            
+            text-align: center;
+        }
+
+        .col-md-4{
+            vertical-align: bottom;
+        }
+    </style>
+
+</head>
+
+<script>
+    function hey() {
+      alert('주문이 완료되었습니다!');
+    }
+</script>
+
+<body>
+    <div class="wrap">
+        <img class="product-img" width="500px"
+            src="https://img.danawa.com/images/news/images/000468/20200120160302933_MZZLEC1Z.jpg" alt="Card image cap">
+
+        <div class="product-intro">
+            <div class="row">
+                <div class="col-md-8"> 
+                    <h1 class="product-name">포터블(휴대용) 모니터</h1>
+                </div>
+                <div class="col-md-4">
+                    <h4 >가격: 224,000 원/개</h4>
+                </div>
+                <p class="lead">모니터가 필요하면 바로 이제품! 언제나 손에 들고 다니세요.
+                    카페에 가서도, 거실에서도 어디에서나 듀얼모니터를 사용해 보세요! 생산성이 두배로 올라갑니다!</p>
+            </div>
+
+        </div>
+
+        <div class="product-order">
+            <p>
+            <h2 class="order">주문하기</h1>
+                </p>
+                <p>
+                <div class="row">
+                    <div class="col-sm-2"> 주문자 성함: </div>
+                    <div class="col-sm-8"><input class="inputtext" type="text" /> </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2"> 수량: </div>
+                    <div class="col-sm-8">
+                        <div class="dropdown">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger">수량</button>
+                                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <h6 class="dropdown-header">수량을 선택하세요 </h6>
+                                    <a class="dropdown-item" href="#">1</a>
+                                    <a class="dropdown-item" href="#">2</a>
+                                    <a class="dropdown-item" href="#">3</a>
+                                    <a class="dropdown-item" href="#">4</a>
+                                    <a class="dropdown-item" href="#">5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-2"> 주소: </div>
+                    <div class="col-sm-8"><input class="inputtext" type="text" /> </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2"> 전화번호: </div>
+                    <div class="col-sm-8"><input class="inputtext" type="text" /> </div>
+                </div>
+
+
+
+                <div class="order-button">
+                    <button type="button" onclick="hey()" class="btn btn-success" >주문하기</button>
+
+                </div>
+</body>
+
+</html>
